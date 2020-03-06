@@ -1,1 +1,52 @@
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 57px;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.icon-container {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.for-whom .card {
+  border: none;
+}
+
+section {
+  margin: 70px 0;
+}
+
+.small-square-image {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.map-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/img/map.png.jpg") center center no-repeat fixed;
+  padding: 150px 0;
+}
+
+.registered-heading {
+  color: yellow;
+}
+
+.text-box {
+  text-align: justify;
+}
+
+footer {
+  height: 100px;
+  background-color: #272727;
+}
+
+footer .footer-text p {
+  color: #ffffff;
+  padding-top: 40px;
+}
